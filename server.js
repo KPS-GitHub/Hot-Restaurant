@@ -2,6 +2,9 @@
 var express = require('express');
 // body-parser allows us to receive info in json
 var bodyParser = require('body-parser');
+// path - built into node (no npm install required for this one)
+var path = require('path');
+
 
 var app = express();
 
