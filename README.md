@@ -1,2 +1,2 @@
 # Hot-Restaurant
-placeholder repo for small group activity
+hot restaurant activity - solo practice
