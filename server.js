@@ -16,6 +16,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+// api routes first because we must pull data, add it to page, THEN display the page
+require("./app/routing/api-routes.js")(app);
 require("./app/routing/html-routes.js")(app);
 
 app.listen(PORT, function(){
